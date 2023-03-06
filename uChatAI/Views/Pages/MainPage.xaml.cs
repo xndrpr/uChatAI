@@ -1,4 +1,5 @@
-﻿using System.Windows.Controls;
+﻿using System.Windows;
+using System.Windows.Controls;
 
 namespace uChatAI.Views.Pages
 {
@@ -7,6 +8,10 @@ namespace uChatAI.Views.Pages
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void richTextBox_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        {
         }
     }
 }

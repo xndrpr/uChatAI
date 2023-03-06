@@ -507,3 +507,5 @@ D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\uChatAI.pdb
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\uChatAI.genruntimeconfig.cache
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\ref\uChatAI.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\GarnetControls.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\Views\Logo.ico
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\uChatAI_Content.g.cs

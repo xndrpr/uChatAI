@@ -1,0 +1,8 @@
+To use this application, you need to create API key on the https://platform.openai.com website. 
+Then, you need to create .env file near application, 
+before doing this, you need to show file extensions in file explorer. 
+
+Finally, you need to open .env file with notepad, 
+and place this into it: API=YOUR_API_KEY.
+
+Warning: Change YOUR_API_KEY to the API key you created on the official OpenAI website.

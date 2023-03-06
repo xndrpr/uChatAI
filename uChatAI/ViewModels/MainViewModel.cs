@@ -1,4 +1,5 @@
 ﻿using DevExpress.Mvvm;
+using ICSharpCode.AvalonEdit.Document;
 using OpenAI.GPT3.ObjectModels.RequestModels;
 using System;
 using System.Collections.Generic;
@@ -27,6 +28,7 @@ namespace uChatAI.ViewModels
         public ObservableCollection<Code> Codes { get; set; } = new ObservableCollection<Code>();
         public Message SelectedMessage { get; set; }
         public string Message { get; set; }
+        public string Code { get; set; }
 
         public MainViewModel(PageService pageService)
         {
@@ -100,39 +102,62 @@ namespace uChatAI.ViewModels
                             if (indexes.Count >= i + 1)
                             {
                                 string directory = response!.BotResponse!.Substring(indexes[i] + "```".Length, indexes[i + 1] - (indexes[i] + "```".Length));
+                                if (directory.Length > 5 == false)
+                                {
+                                    directory = response!.BotResponse!.Substring(indexes[i] + "```".Length, indexes[i + 2] - (indexes[i] + "```".Length));
+                                } 
+                                
+                                string language = "";
 
                                 if (directory.StartsWith("python"))
-                                    directory.Remove(6);
+                                    directory.Remove("python".Length);
+
                                 else if (directory.StartsWith("xml"))
-                                    directory.Remove(2);
+                                    directory.Remove("xml".Length);
+
                                 else if (directory.StartsWith("csharp"))
-                                    directory.Remove(6);
+                                    directory.Remove("csharp".Length);
+
                                 else if (directory.StartsWith("html"))
-                                    directory.Remove(4);
+                                    directory.Remove("html".Length);
+
                                 else if (directory.StartsWith("js"))
-                                    directory.Remove(2);
+                                    directory.Remove("js".Length);
+
                                 else if (directory.StartsWith("javascript"))
-                                    directory.Remove(10);
+                                    directory.Remove("javascript".Length);
+
                                 else if (directory.StartsWith("go"))
-                                    directory.Remove(2);
+                                    directory.Remove("go".Length);
+
                                 else if (directory.StartsWith("golang"))
-                                    directory.Remove(6);
+                                    directory.Remove("golang".Length);
+
                                 else if (directory.StartsWith("rust"))
-                                    directory.Remove(4);
+                                    directory.Remove("rust".Length);
+
                                 else if (directory.StartsWith("cpp"))
-                                    directory.Remove(3);
+                                    directory.Remove("cpp".Length);
+
                                 else if (directory.StartsWith("c++"))
-                                    directory.Remove(3);
+                                    directory.Remove("c++".Length);
+
                                 else if (directory.StartsWith("c"))
-                                    directory.Remove(1);
+                                    directory.Remove("c".Length);
+
                                 else if (directory.StartsWith("java"))
-                                    directory.Remove(4);
+                                    directory.Remove("java".Length);
+
+                                var doc = new TextDocument();
+                                doc.Text = directory.Trim();
 
                                 Codes.Add(new Code()
                                 {
                                     Id = Codes.Count + 1,
+                                    Document = doc,
                                     Text = directory,
-                                    Title = message.Text
+                                    Title = message.Text,
+                                    Language = language
                                 });
                             }
                             if (indexes.Count >= i + 2)
@@ -140,18 +165,6 @@ namespace uChatAI.ViewModels
                                 i += 2;
                             }
                         }
-
-                        //int start_index = response!.BotResponse!.IndexOf("```") + "```".Length;
-                        //int end_index = response!.BotResponse!.LastIndexOf("```");
-                        //int length = end_index - start_index;
-                        //string directory = response!.BotResponse!.Substring(start_index, length);
-
-                        //Codes.Add(new Code()
-                        //{
-                        //    Id = Codes.Count + 1,
-                        //    Text = directory,
-                        //    Title = message.Text
-                        //});
                     }
                     catch (Exception ex)
                     {

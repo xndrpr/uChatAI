@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
+      "AvalonEdit/6.2.0.78": {
+        "runtime": {
+          "lib/net6.0-windows7.0/ICSharpCode.AvalonEdit.dll": {
+            "assemblyVersion": "6.2.0.78",
+            "fileVersion": "6.2.0.78"
+          }
+        }
+      },
       "Betalgo.OpenAI.GPT3/6.7.1": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "5.2.9",
@@ -46,6 +54,26 @@
         }
       },
       "Fody/6.6.4": {},
+      "MaterialDesignColors/2.1.2": {
+        "runtime": {
+          "lib/net7.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.8.0": {
+        "dependencies": {
+          "MaterialDesignColors": "2.1.2",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net7.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.8.0.0",
+            "fileVersion": "4.8.0.0"
+          }
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.1",
@@ -219,6 +247,14 @@
           "Microsoft.NETCore.Platforms": "1.1.1",
           "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -1478,6 +1514,13 @@
     }
   },
   "libraries": {
+    "AvalonEdit/6.2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mkfpGYDGDxVUrMe8CzOMMD4engMwoQiZ3md0m1c3V4hvQI6PErOjzsRIqetYxB2EyrYG+Gv0icAoADg0UIkv/g==",
+      "path": "avalonedit/6.2.0.78",
+      "hashPath": "avalonedit.6.2.0.78.nupkg.sha512"
+    },
     "Betalgo.OpenAI.GPT3/6.7.1": {
       "type": "package",
       "serviceable": true,
@@ -1505,6 +1548,20 @@
       "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
       "path": "fody/6.6.4",
       "hashPath": "fody.6.6.4.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7hf7MLRB6JXHj+IOLh3z2L9yBr58QhgpWQXyvffAoWdSamVO+DMEp3DqdWds0R5Rf6dp9yQ9hYUZ+wSsVZG1nQ==",
+      "path": "materialdesigncolors/2.1.2",
+      "hashPath": "materialdesigncolors.2.1.2.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJDuWrSIqK+sA/RvZlJTlPF9Yp2YBdEZdiDtSHG/CEumkqJPMSewGga2pWF9gnRHkS5D7UWPaRRmT11Wb7F2Cw==",
+      "path": "materialdesignthemes/4.8.0",
+      "hashPath": "materialdesignthemes.4.8.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.9": {
       "type": "package",
@@ -1617,6 +1674,13 @@
       "sha512": "sha512-9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

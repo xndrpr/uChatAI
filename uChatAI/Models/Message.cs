@@ -1,8 +1,4 @@
-﻿using OpenAI.GPT3.ObjectModels.RequestModels;
-using System.Collections.Generic;
-using System.Windows.Documents;
-
-namespace uChatAI.Models
+﻿namespace uChatAI.Models
 {
     public class Message
     {

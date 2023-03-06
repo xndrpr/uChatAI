@@ -48,3 +48,13 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\DotNetEnv.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Sprache.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\GarnetControls.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\uChatAI_Content.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Views\Logo.ico
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\MaterialDesignColors.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\ICSharpCode.AvalonEdit.dll
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Controls\CodePreview.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Controls\CodePreview.baml
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\HL.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\HL.pdb
