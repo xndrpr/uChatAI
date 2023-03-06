@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[2.5.0, )"
             },
-            "GarnetControls": {
-              "target": "Package",
-              "version": "[1.0.8, )"
-            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E4n34lfGAaRCypWnYj1KtEcnLBTMIRb2hlx5ed4iVSDHrmwr6ZaJWE/slA/fO/led8XiAvsWutOd5QO6HrVpLA==",
+  "dgSpecHash": "0JeGYra0G607/pQGHshVNL5Bm76uG9J2aIfJKdpr6WCw1wbUaWSdhUfC6Wy3xuNEfBbSgt6/nELWaj/hUg0yAA==",
   "success": true,
   "projectFilePath": "D:\\Dev\\uaquax\\uChatAI\\uChatAI\\uChatAI.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,6 @@
     "C:\\Users\\uaquax\\.nuget\\packages\\devexpressmvvm\\22.1.3\\devexpressmvvm.22.1.3.nupkg.sha512",
     "C:\\Users\\uaquax\\.nuget\\packages\\dotnetenv\\2.5.0\\dotnetenv.2.5.0.nupkg.sha512",
     "C:\\Users\\uaquax\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
-    "C:\\Users\\uaquax\\.nuget\\packages\\garnetcontrols\\1.0.8\\garnetcontrols.1.0.8.nupkg.sha512",
     "C:\\Users\\uaquax\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",
     "C:\\Users\\uaquax\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\uaquax\\.nuget\\packages\\microsoft.extensions.configuration\\1.1.2\\microsoft.extensions.configuration.1.1.2.nupkg.sha512",

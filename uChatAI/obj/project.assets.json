@@ -60,18 +60,6 @@
           "build/Fody.targets": {}
         }
       },
-      "GarnetControls/1.0.8": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows7.0/GarnetControls.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/GarnetControls.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "type": "package",
         "dependencies": {
@@ -1980,19 +1968,6 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
-      ]
-    },
-    "GarnetControls/1.0.8": {
-      "sha512": "jJASOPYT0xzUf3EmKck4c4yDeBbDR8HV0srlSwtxpjBe48c/4voy4jpTDWE14yHcvy7lkmFkvsNDpyVGhAuXCg==",
-      "type": "package",
-      "path": "garnetcontrols/1.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "garnetcontrols.1.0.8.nupkg.sha512",
-        "garnetcontrols.nuspec",
-        "ghost.jpg",
-        "lib/net6.0-windows7.0/GarnetControls.dll"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.9": {
@@ -6186,7 +6161,6 @@
       "Betalgo.OpenAI.GPT3 >= 6.7.1",
       "DevExpressMvvm >= 22.1.3",
       "DotNetEnv >= 2.5.0",
-      "GarnetControls >= 1.0.8",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "PropertyChanged.Fody >= 4.1.0"
     ]
@@ -6241,10 +6215,6 @@
           "DotNetEnv": {
             "target": "Package",
             "version": "[2.5.0, )"
-          },
-          "GarnetControls": {
-            "target": "Package",
-            "version": "[1.0.8, )"
           },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",

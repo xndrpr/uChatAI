@@ -1,0 +1,4 @@
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0r\uChatAI.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0r\.env
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0r\GarnetControls.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0r\uChatAI.exe

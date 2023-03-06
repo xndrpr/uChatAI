@@ -47,3 +47,4 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Newtonsoft.Json.Bson.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\DotNetEnv.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Sprache.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\GarnetControls.pdb

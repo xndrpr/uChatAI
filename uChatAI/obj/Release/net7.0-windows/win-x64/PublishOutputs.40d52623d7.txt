@@ -1,0 +1,3 @@
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0\uChatAI.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0\.env
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.0\uChatAI.exe

@@ -46,14 +46,6 @@
         }
       },
       "Fody/6.6.4": {},
-      "GarnetControls/1.0.8": {
-        "runtime": {
-          "lib/net6.0-windows7.0/GarnetControls.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
-          }
-        }
-      },
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.1",
@@ -1513,13 +1505,6 @@
       "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
       "path": "fody/6.6.4",
       "hashPath": "fody.6.6.4.nupkg.sha512"
-    },
-    "GarnetControls/1.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jJASOPYT0xzUf3EmKck4c4yDeBbDR8HV0srlSwtxpjBe48c/4voy4jpTDWE14yHcvy7lkmFkvsNDpyVGhAuXCg==",
-      "path": "garnetcontrols/1.0.8",
-      "hashPath": "garnetcontrols.1.0.8.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.9": {
       "type": "package",
