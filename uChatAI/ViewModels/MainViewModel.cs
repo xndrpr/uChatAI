@@ -4,20 +4,19 @@ using OpenAI.GPT3.ObjectModels.RequestModels;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using System.Windows.Media.Animation;
 using uChatAI.Models;
 using uChatAI.Services;
 using uChatAI.Views.Pages;
 
 namespace uChatAI.ViewModels
-{ 
+{
     public class MainViewModel : BindableBase
     {
         public static MainPage mainPage = new MainPage();
+        public static AuthorizationPage authorizationPage = new AuthorizationPage();
 
         private readonly PageService _pageService;
         private readonly OpenAiService _openAIService;
@@ -34,9 +33,16 @@ namespace uChatAI.ViewModels
         {
             _pageService = pageService;
             _pageService.OnPageChanged += page => CurrentPage = page;
-            CurrentPage = mainPage;
 
-            _openAIService = new OpenAiService();
+            if (Properties.Settings.Default["API"].ToString()!.Length < 5)
+            {
+                CurrentPage = authorizationPage;
+            }
+            else
+            {
+                CurrentPage = mainPage;
+                _openAIService = new OpenAiService();
+            }
         }
 
         public ICommand SendMessageCommand

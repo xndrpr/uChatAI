@@ -1,0 +1,10 @@
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\uChatAI.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\Views\Logo.ico
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\uChatAI.dll.config
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\D3DCompiler_47_cor3.dll
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\PenImc_cor3.dll
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\PresentationNative_cor3.dll
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\vcruntime140_cor3.dll
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\wpfgfx_cor3.dll
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\GarnetControls.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Releases\v1.0.2\uChatAI.exe

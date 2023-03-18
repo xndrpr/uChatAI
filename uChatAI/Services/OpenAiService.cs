@@ -20,7 +20,7 @@ namespace uChatAI.Services
             Env.Load();
             openAiService = new OpenAIService(new OpenAiOptions()
             {
-                ApiKey = Env.GetString("API")
+                ApiKey = (string)Properties.Settings.Default["API"]
             });
         }
 

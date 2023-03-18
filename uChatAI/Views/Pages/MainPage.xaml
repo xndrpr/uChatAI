@@ -78,6 +78,7 @@
                                         VerticalAlignment="Stretch"
                                         FontSize="16"
                                         Icon="{Binding Icon}"
+                                        Radius="15"
                                         Text="{Binding Text}" />
                                 </WrapPanel>
                             </StackPanel>
@@ -94,6 +95,7 @@
                 Grid.Column="2"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
+                CanContentScroll="True"
                 HorizontalScrollBarVisibility="Auto"
                 VerticalScrollBarVisibility="Auto">
                 <ItemsControl

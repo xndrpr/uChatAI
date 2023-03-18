@@ -1,6 +1,4 @@
-﻿using HL.Interfaces;
-using HL.Manager;
-using ICSharpCode.AvalonEdit.Document;
+﻿using ICSharpCode.AvalonEdit.Document;
 using ICSharpCode.AvalonEdit.Highlighting;
 using System.Windows;
 using System.Windows.Controls;

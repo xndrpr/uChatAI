@@ -76,7 +76,7 @@ namespace uChatAI.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/uChatAI;component/controls/codepreview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/uChatAI;V1.0.2;component/controls/codepreview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\CodePreview.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

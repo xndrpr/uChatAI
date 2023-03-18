@@ -1,5 +1,5 @@
 ﻿uChatAI
-1.0.0.0
+1.0.2
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 D:\Dev\uaquax\uChatAI\uChatAI\App.xaml
-3-155158671
+42100303649
 1-1481509442
-13-875902679
-233804862832
-Controls\CodePreview.xaml;Views\MainWindow.xaml;Views\Pages\MainPage.xaml;
+16-1746774887
+2321307898427
+Controls\CodePreview.xaml;Views\MainWindow.xaml;Views\Pages\AuthorizationPage.xaml;Views\Pages\MainPage.xaml;
 
 False
 

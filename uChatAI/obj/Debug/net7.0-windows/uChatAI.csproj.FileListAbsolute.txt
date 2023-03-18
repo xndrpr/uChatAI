@@ -31,7 +31,6 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Depe
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\App.baml
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\GarnetControls.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\.env
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\OpenAI.GPT3.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\System.Net.Http.Formatting.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -56,5 +55,6 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Xaml.Behaviors.
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\ICSharpCode.AvalonEdit.dll
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Controls\CodePreview.g.cs
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Controls\CodePreview.baml
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\HL.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\HL.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Views\Pages\AuthorizationPage.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Views\Pages\AuthorizationPage.baml
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\uChatAI.dll.config

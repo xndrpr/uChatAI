@@ -1,5 +1,4 @@
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\uChatAI.exe
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\.env
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\uChatAI.deps.json
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\uChatAI.runtimeconfig.json
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\uChatAI.dll
@@ -509,3 +508,12 @@ D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\ref\uChatAI.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\GarnetControls.pdb
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\Views\Logo.ico
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\uChatAI_Content.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\ICSharpCode.AvalonEdit.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\MaterialDesignColors.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\MaterialDesignThemes.Wpf.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\Microsoft.Xaml.Behaviors.dll
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\Controls\CodePreview.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\Controls\CodePreview.baml
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\win-x64\uChatAI.dll.config
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\Views\Pages\AuthorizationPage.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\win-x64\Views\Pages\AuthorizationPage.baml

@@ -26,14 +26,20 @@
     <Reference Include="GarnetControls">
       <HintPath>..\..\GarnetControls\GarnetControls\bin\Debug\net6.0-windows\GarnetControls.dll</HintPath>
     </Reference>
-    <Reference Include="HL">
-      <HintPath>C:\Users\uaquax\Downloads\net4\HL.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
-    <None Update=".env">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Update="Views\Logo.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

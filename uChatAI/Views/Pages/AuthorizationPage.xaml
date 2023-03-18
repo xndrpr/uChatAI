@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="uChatAI.Views.Pages.AuthorizationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:gc="clr-namespace:GarnetControls.Controls;assembly=GarnetControls"
+    xmlns:local="clr-namespace:uChatAI.Views.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+    Title="AuthorizationPage"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    DataContext="{Binding AuthorizationViewModel, Source={StaticResource ViewModelLocator}}"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock
+                Margin="20"
+                FontSize="18"
+                FontWeight="Bold"
+                Foreground="#fff"
+                Text="Authorization" />
+            <TextBox
+                md:HintAssist.Hint="Api Token"
+                Foreground="#fff"
+                Text="{Binding API}" />
+            <gc:Button
+                Width="120"
+                Height="30"
+                Margin="10"
+                Command="{Binding ContinueCommand}"
+                Content="Continue" />
+            <TextBlock FontSize="10" Foreground="#fff">
+                Don't have a API token?<Hyperlink NavigateUri="https://platform.openai.com/account/api-keys" RequestNavigate="Hyperlink_RequestNavigate">
+                    Create it on OpenAI website
+                </Hyperlink>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
