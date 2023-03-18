@@ -13,6 +13,7 @@ namespace uChatAI.Services
 
             services.AddTransient<MainViewModel>();
             services.AddTransient<AuthorizationViewModel>();
+            services.AddTransient<SettingsViewModel>();
             services.AddSingleton<PageService>();
 
             _provider = services.BuildServiceProvider();
@@ -26,5 +27,7 @@ namespace uChatAI.Services
         public MainViewModel MainViewModel => _provider!.GetRequiredService<MainViewModel>();
 
         public AuthorizationViewModel AuthorizationViewModel => _provider!.GetRequiredService<AuthorizationViewModel>();
+
+        public SettingsViewModel SettingsViewModel => _provider!.GetRequiredService<SettingsViewModel>();
     }
 }

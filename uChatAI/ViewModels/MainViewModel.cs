@@ -45,6 +45,17 @@ namespace uChatAI.ViewModels
             }
         }
 
+        public ICommand SettingsCommand
+        {
+            get
+            {
+                return new DelegateCommand(() =>
+                {
+                    _pageService.Navigate(new SettingsPage());
+                });
+            }
+        }
+
         public ICommand SendMessageCommand
         {
             get
@@ -90,7 +101,7 @@ namespace uChatAI.ViewModels
                         response!.Text = responseResult;
 
                         ChatMessages.Add(ChatMessage.FromUser(message.Text));
-                        ChatMessages.Add(ChatMessage.FromAssistance(response.BotResponse));
+                        ChatMessages.Add(ChatMessage.FromAssistant(response.BotResponse));
 
                         Messages.Add(response);
 

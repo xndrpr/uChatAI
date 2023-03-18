@@ -1,0 +1,4 @@
+D:\Dev\uaquax\uChatAI\uChatAI\Realeases\v1.0.2\uChatAI.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Realeases\v1.0.2\uChatAI.dll.config
+D:\Dev\uaquax\uChatAI\uChatAI\Realeases\v1.0.2\GarnetControls.pdb
+D:\Dev\uaquax\uChatAI\uChatAI\Realeases\v1.0.2\uChatAI.exe

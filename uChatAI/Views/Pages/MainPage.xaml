@@ -8,6 +8,7 @@
     xmlns:gc="clr-namespace:GarnetControls.Controls;assembly=GarnetControls"
     xmlns:local="clr-namespace:uChatAI.Views.Pages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
     Title="MainPage"
     d:DesignHeight="450"
     d:DesignWidth="800"
@@ -41,6 +42,19 @@
                     Margin="1"
                     Command="{Binding DeleteChatCommand}"
                     Content="Delete Chat" />
+            </StackPanel>
+            <StackPanel
+                Grid.Column="1"
+                HorizontalAlignment="Right"
+                Orientation="Horizontal">
+                <gc:Button
+                    Height="30"
+                    Margin="1"
+                    Command="{Binding SettingsCommand}">
+                    <gc:Button.Content>
+                        <md:PackIcon Kind="Settings" />
+                    </gc:Button.Content>
+                </gc:Button>
             </StackPanel>
         </Grid>
 

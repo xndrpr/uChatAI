@@ -59,7 +59,7 @@ namespace uChatAI.Views.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/uChatAI;V1.0.2;component/views/pages/authorizationpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/uChatAI;component/views/pages/authorizationpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Pages\AuthorizationPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

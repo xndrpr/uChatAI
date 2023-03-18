@@ -32,7 +32,6 @@ D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\GeneratedInternalTypeHelp
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\App.baml
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\GarnetControls.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\OpenAI.GPT3.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\System.Net.Http.Formatting.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Binder.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Http.dll
@@ -41,12 +40,9 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Logg
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Newtonsoft.Json.Bson.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\DotNetEnv.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Sprache.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\GarnetControls.pdb
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\uChatAI_Content.g.cs
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Views\Logo.ico
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\MaterialDesignColors.dll
@@ -58,3 +54,5 @@ D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Controls\CodePreview.baml
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Views\Pages\AuthorizationPage.g.cs
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Views\Pages\AuthorizationPage.baml
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\uChatAI.dll.config
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Views\Pages\SettingsPage.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Debug\net7.0-windows\Views\Pages\SettingsPage.baml
