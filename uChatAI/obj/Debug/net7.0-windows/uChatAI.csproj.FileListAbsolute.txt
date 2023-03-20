@@ -69,3 +69,4 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\tessdata\ara.traineddata
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\tessdata\deu.traineddata
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\tessdata\hin.traineddata
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\tessdata\jpn.traineddata
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Debug\net7.0-windows\Newtonsoft.Json.dll

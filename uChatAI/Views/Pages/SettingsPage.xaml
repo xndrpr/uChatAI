@@ -68,6 +68,22 @@
                         Click="Button_Click"
                         Content="Save" />
                 </StackPanel>
+                <StackPanel Margin="5" Orientation="Horizontal">
+                    <TextBlock Foreground="#fff" Text="Auto translate message to English (Improves quality of answers)" />
+                    <ComboBox
+                        Loaded="autoTranslate_Loaded"
+                        x:Name="autoTranslate"
+                        Margin="10,0,0,0"
+                        Foreground="#fff"
+                        SelectedIndex="0">
+                        <ComboBoxItem Content="No" />
+                        <ComboBoxItem Content="Yes" />
+                    </ComboBox>
+                    <gc:Button
+                        Margin="10,0,0,0"
+                        Click="Button_Click_1"
+                        Content="Save" />
+                </StackPanel>
             </StackPanel>
         </ScrollViewer>
         <gc:Button

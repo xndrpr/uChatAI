@@ -28,6 +28,7 @@ namespace uChatAI.Services
         {
             try
             {
+                message.Text = Properties.Settings.Default.AutoTranslate ? (await TranslateService.Translate(Language.Detect, Language.English, message.Text!))! : message.Text!;
                 var messages = new List<ChatMessage>()
                 {
                     ChatMessage.FromUser(message.Text!)
@@ -43,6 +44,8 @@ namespace uChatAI.Services
                 {
                     return new Message()
                     {
+                        SubMessageVisibility = Properties.Settings.Default.AutoTranslate ? System.Windows.Visibility.Visible : System.Windows.Visibility.Collapsed,
+                        UserSubMessage = message.Text,
                         Text = message.Text,
                         BotResponse = completionResult.Choices.First().Message.Content
                     };

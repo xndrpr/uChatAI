@@ -66,17 +66,17 @@
             </Grid.ColumnDefinitions>
 
             <ScrollViewer
-                AllowDrop="True"
-                Drop="ScrollViewer_Drop"
                 Grid.Column="0"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
+                AllowDrop="True"
+                Drop="ScrollViewer_Drop"
                 HorizontalScrollBarVisibility="Auto"
                 VerticalScrollBarVisibility="Auto">
                 <ItemsControl
                     Background="#292E32"
                     BorderThickness="0"
-                    ItemsSource="{Binding Messages}">
+                    ItemsSource="{Binding Messages, UpdateSourceTrigger=PropertyChanged}">
                     <ItemsControl.Template>
                         <ControlTemplate>
                             <ItemsPresenter />
@@ -86,17 +86,47 @@
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <StackPanel>
-                                <WrapPanel>
-                                    <gc:SelectableListBoxItem
-                                        Margin="5"
-                                        Padding="5"
-                                        HorizontalAlignment="Stretch"
-                                        VerticalAlignment="Stretch"
-                                        FontSize="16"
-                                        Icon="{Binding Icon}"
-                                        Radius="15"
-                                        Text="{Binding Text}" />
-                                </WrapPanel>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto " />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <StackPanel Orientation="Horizontal">
+                                        <gc:SelectableListBoxItem
+                                            Width="Auto"
+                                            Margin="5,5,0,5"
+                                            Padding="5"
+                                            FontSize="16"
+                                            Icon="{Binding Icon}"
+                                            Radius="15"
+                                            Text="{Binding Text}" />
+                                        <md:PackIcon
+                                            Width="40"
+                                            Margin="0,22,0,0"
+                                            Foreground="#fff"
+                                            Kind="Translate"
+                                            Visibility="{Binding TranslationVisibility}" />
+                                    </StackPanel>
+                                    <StackPanel
+                                        Grid.Row="1"
+                                        Orientation="Horizontal"
+                                        Visibility="{Binding SubMessageVisibility}">
+                                        <md:PackIcon
+                                            Width="40"
+                                            Foreground="#fff"
+                                            Kind="User" />
+                                        <TextBox
+                                            Margin="5,0,0,0"
+                                            HorizontalAlignment="Stretch"
+                                            VerticalAlignment="Stretch"
+                                            BorderThickness="0"
+                                            FontSize="12"
+                                            Foreground="#fff"
+                                            IsReadOnly="True"
+                                            Text="{Binding UserSubMessage}" />
+                                    </StackPanel>
+                                </Grid>
+
                             </StackPanel>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>

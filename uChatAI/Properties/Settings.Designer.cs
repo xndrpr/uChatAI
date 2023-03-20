@@ -46,5 +46,17 @@ namespace uChatAI.Properties {
                 this["OcrLanguage"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AutoTranslate {
+            get {
+                return ((bool)(this["AutoTranslate"]));
+            }
+            set {
+                this["AutoTranslate"] = value;
+            }
+        }
     }
 }
