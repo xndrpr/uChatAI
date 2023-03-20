@@ -45,6 +45,29 @@
                         Content="Change" />
                 </StackPanel>
                 <Separator />
+                <StackPanel Margin="5" Orientation="Horizontal">
+                    <TextBlock Foreground="#fff" Text="OCR Language (Text recognition)" />
+                    <ComboBox
+                        x:Name="ocrLanguage"
+                        Margin="10,0,0,0"
+                        Foreground="#fff"
+                        Loaded="ocrLanguage_Loaded"
+                        SelectedIndex="3">
+                        <ComboBoxItem Content="Ukrainian" />
+                        <ComboBoxItem Content="Arabic" />
+                        <ComboBoxItem Content="Chinese" />
+                        <ComboBoxItem Content="English" />
+                        <ComboBoxItem Content="German" />
+                        <ComboBoxItem Content="Hindi" />
+                        <ComboBoxItem Content="Japanese" />
+                        <ComboBoxItem Content="Chinese" />
+                        <ComboBoxItem Content="Russian" />
+                    </ComboBox>
+                    <gc:Button
+                        Margin="10,0,0,0"
+                        Click="Button_Click"
+                        Content="Save" />
+                </StackPanel>
             </StackPanel>
         </ScrollViewer>
         <gc:Button

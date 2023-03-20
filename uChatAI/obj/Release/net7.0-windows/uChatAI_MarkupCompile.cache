@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET7_0;NETCOREAPP
 D:\Dev\uaquax\uChatAI\uChatAI\App.xaml
-3-155158671
+5-1128761650
 1-1481509442
-111686155459
-2321307898427
-Controls\CodePreview.xaml;Views\MainWindow.xaml;Views\Pages\MainPage.xaml;
+171317752638
+2301180110546
+Controls\CodePreview.xaml;Views\MainWindow.xaml;Views\Pages\AuthorizationPage.xaml;Views\Pages\MainPage.xaml;Views\Pages\SettingsPage.xaml;
 
 False
 

@@ -66,6 +66,8 @@
             </Grid.ColumnDefinitions>
 
             <ScrollViewer
+                AllowDrop="True"
+                Drop="ScrollViewer_Drop"
                 Grid.Column="0"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch"
@@ -156,11 +158,21 @@
 
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
-            <TextBox
+            <gc:Button
                 Grid.Column="0"
+                MaxHeight="180"
+                HorizontalAlignment="Right"
+                Command="{Binding OcrCommand}">
+                <gc:Button.Content>
+                    <md:PackIcon Kind="FileTextAdd" />
+                </gc:Button.Content>
+            </gc:Button>
+            <TextBox
+                Grid.Column="1"
                 Width="auto"
                 Height="auto"
                 MaxHeight="180"
@@ -180,7 +192,7 @@
                 </TextBox.InputBindings>
             </TextBox>
             <gc:Button
-                Grid.Column="1"
+                Grid.Column="2"
                 MaxHeight="180"
                 HorizontalAlignment="Right"
                 Command="{Binding SendMessageCommand}">

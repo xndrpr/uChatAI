@@ -1,5 +1,4 @@
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\uChatAI.exe
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\.env
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Views\Logo.ico
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\uChatAI.deps.json
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\uChatAI.runtimeconfig.json
@@ -12,7 +11,6 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\DevExpress.Mvvm.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\DotNetEnv.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\MaterialDesignColors.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\MaterialDesignThemes.Wpf.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\System.Net.Http.Formatting.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Extensions.Configuration.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Extensions.Configuration.Binder.dll
@@ -25,11 +23,8 @@ D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Extensions.Op
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Extensions.Primitives.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Microsoft.Xaml.Behaviors.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Newtonsoft.Json.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Newtonsoft.Json.Bson.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Sprache.dll
 D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\GarnetControls.dll
-D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\GarnetControls.pdb
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\uChatAI.csproj.AssemblyReference.cache
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\Controls\CodePreview.g.cs
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\Views\MainWindow.g.cs
@@ -56,3 +51,13 @@ D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\refint\uChatAI.dll
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\uChatAI.pdb
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\uChatAI.genruntimeconfig.cache
 D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\ref\uChatAI.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\uChatAI.dll.config
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\Views\Pages\AuthorizationPage.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\Views\Pages\SettingsPage.g.cs
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\Views\Pages\AuthorizationPage.baml
+D:\Dev\uaquax\uChatAI\uChatAI\obj\Release\net7.0-windows\Views\Pages\SettingsPage.baml
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\x86\leptonica-1.82.0.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\x86\tesseract50.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\x64\leptonica-1.82.0.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\x64\tesseract50.dll
+D:\Dev\uaquax\uChatAI\uChatAI\bin\Release\net7.0-windows\Tesseract.dll

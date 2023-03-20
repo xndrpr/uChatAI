@@ -28,7 +28,6 @@ C:\Users\uaquax\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netsta
 C:\Users\uaquax\.nuget\packages\system.linq\4.3.0\lib\netstandard1.6\System.Linq.dll
 C:\Users\uaquax\.nuget\packages\system.linq.expressions\4.3.0\lib\netstandard1.6\System.Linq.Expressions.dll
 C:\Users\uaquax\.nuget\packages\system.objectmodel\4.3.0\lib\netstandard1.3\System.ObjectModel.dll
-C:\Users\uaquax\.nuget\packages\system.reflection.emit\4.3.0\lib\netstandard1.3\System.Reflection.Emit.dll
 C:\Users\uaquax\.nuget\packages\system.reflection.emit.ilgeneration\4.3.0\lib\netstandard1.3\System.Reflection.Emit.ILGeneration.dll
 C:\Users\uaquax\.nuget\packages\system.reflection.emit.lightweight\4.3.0\lib\netstandard1.3\System.Reflection.Emit.Lightweight.dll
 C:\Users\uaquax\.nuget\packages\system.reflection.typeextensions\4.3.0\lib\netstandard1.5\System.Reflection.TypeExtensions.dll
@@ -42,3 +41,4 @@ C:\Users\uaquax\.nuget\packages\system.threading\4.3.0\lib\netstandard1.3\System
 C:\Users\uaquax\.nuget\packages\system.threading.tasks.extensions\4.3.0\lib\netstandard1.0\System.Threading.Tasks.Extensions.dll
 C:\Users\uaquax\.nuget\packages\system.xml.readerwriter\4.3.0\lib\netstandard1.3\System.Xml.ReaderWriter.dll
 C:\Users\uaquax\.nuget\packages\system.xml.xdocument\4.3.0\lib\netstandard1.3\System.Xml.XDocument.dll
+C:\Users\uaquax\.nuget\packages\tesseract\5.2.0\lib\netstandard2.0\Tesseract.dll

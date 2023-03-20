@@ -1,5 +1,7 @@
-﻿using System.Windows;
+﻿using System.Linq;
+using System.Windows;
 using System.Windows.Controls;
+using uChatAI.ViewModels;
 
 namespace uChatAI.Views.Pages
 {
@@ -10,8 +12,14 @@ namespace uChatAI.Views.Pages
             InitializeComponent();
         }
 
-        private void richTextBox_SourceUpdated(object sender, System.Windows.Data.DataTransferEventArgs e)
+        private void ScrollViewer_Drop(object sender, DragEventArgs e)
         {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
+
+                ((MainViewModel)DataContext).DragFile(files.First());
+            }
         }
     }
 }

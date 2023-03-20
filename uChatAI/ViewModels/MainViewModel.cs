@@ -1,9 +1,12 @@
 ﻿using DevExpress.Mvvm;
 using ICSharpCode.AvalonEdit.Document;
+using Microsoft.Win32;
 using OpenAI.GPT3.ObjectModels.RequestModels;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -52,6 +55,24 @@ namespace uChatAI.ViewModels
                 return new DelegateCommand(() =>
                 {
                     _pageService.Navigate(new SettingsPage());
+                });
+            }
+        }
+
+        public ICommand OcrCommand
+        {
+            get
+            {
+                return new DelegateCommand(() =>
+                {
+                    var dialog = new OpenFileDialog();
+
+                    if (dialog.ShowDialog() == true)
+                    {
+                        var path = dialog.FileName;
+
+                        extractText(path);
+                    }
                 });
             }
         }
@@ -242,6 +263,60 @@ namespace uChatAI.ViewModels
                     catch { }
                 });
             }
+        }
+
+        private void extractText(string path)
+        {
+            try
+            {
+                var language = "eng";
+
+                switch ((OcrLanguage)Properties.Settings.Default.OcrLanguage)
+                {
+                    case OcrLanguage.Ukrainian:
+                        language = "ukr";
+                        break;
+                    case OcrLanguage.Arabic:
+                        language = "ara";
+                        break;
+                    case OcrLanguage.Chinese:
+                        language = "chi_sim";
+                        break;
+                    case OcrLanguage.English:
+                        language = "eng";
+                        break;
+                    case OcrLanguage.German:
+                        language = "deu";
+                        break;
+                    case OcrLanguage.Hindi:
+                        language = "hin";
+                        break;
+                    case OcrLanguage.Japanese:
+                        language = "ipn";
+                        break;
+                    case OcrLanguage.Russian:
+                        language = "rus";
+                        break;
+                }
+
+                using var tesseractEngine = new Tesseract.TesseractEngine(Path.Combine(Directory.GetCurrentDirectory(), "tessdata"), language, Tesseract.EngineMode.Default);
+                using var imageWithText = Tesseract.Pix.LoadFromFile(path);
+                using var page = tesseractEngine.Process(imageWithText);
+                var extractedText = page.GetText();
+
+                if (extractedText.EndsWith("\n"))
+                    extractedText = extractedText.Remove(extractedText.Length - 1);
+                Message = extractedText;
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+        }
+
+        public void DragFile(string path)
+        {
+            extractText(path);
         }
     }
 }

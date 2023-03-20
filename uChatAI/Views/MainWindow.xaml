@@ -6,7 +6,7 @@
     xmlns:gc="clr-namespace:GarnetControls.Controls;assembly=GarnetControls"
     xmlns:local="clr-namespace:uChatAI"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="uChatAI v1.0.2"
+    Title="uChatAI v1.0.3"
     Width="850"
     Height="450"
     MinWidth="850"

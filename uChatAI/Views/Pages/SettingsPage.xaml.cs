@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using uChatAI.Models;
 using uChatAI.ViewModels;
 
 namespace uChatAI.Views.Pages
@@ -12,6 +13,8 @@ namespace uChatAI.Views.Pages
         public SettingsPage()
         {
             InitializeComponent();
+
+            ocrLanguage.SelectedIndex = Properties.Settings.Default.OcrLanguage;
         }
 
         private void apiButton_Click(object sender, RoutedEventArgs e)
@@ -31,6 +34,17 @@ namespace uChatAI.Views.Pages
                 MainViewModel.mainPage = new MainPage();
                 apiText.IsReadOnly = true;
             }
+        }
+
+        private void ocrLanguage_Loaded(object sender, RoutedEventArgs e)
+        {
+            ocrLanguage.SelectedIndex = Properties.Settings.Default.OcrLanguage;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Properties.Settings.Default["OcrLanguage"] = ocrLanguage.SelectedIndex;
+            Properties.Settings.Default.Save();
         }
     }
 }
