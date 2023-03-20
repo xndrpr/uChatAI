@@ -316,7 +316,8 @@ namespace uChatAI.ViewModels
 
         public void DragFile(string path)
         {
-            extractText(path);
+            if (path.EndsWith(".jpg") || path.EndsWith(".jpeg") || path.EndsWith(".png") || path.EndsWith(".bmp") || path.EndsWith(".wbep"))
+                extractText(path);
         }
     }
 }
